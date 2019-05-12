@@ -1,0 +1,32 @@
+INSERT INTO GENDER VALUES(1, 'male');
+INSERT INTO GENDER VALUES(2, 'female');
+
+
+
+INSERT INTO EDUCATION VALUES(1, 'graduate school');
+INSERT INTO EDUCATION VALUES(2, 'university');
+INSERT INTO EDUCATION VALUES(3, 'high school');
+INSERT INTO EDUCATION VALUES(4, 'others');
+INSERT INTO EDUCATION VALUES(5, 'unknown');
+INSERT INTO EDUCATION VALUES(6, 'unknown');
+
+INSERT INTO MARRIAGE VALUES(1, 'married');
+INSERT INTO MARRIAGE VALUES(2, 'single');
+INSERT INTO MARRIAGE VALUES(3, 'others');
+
+
+INSERT INTO DEFAULT_PAYMENT VALUES(0, 'no');
+INSERT INTO DEFAULT_PAYMENT VALUES(1, 'yes');
+
+
+INSERT INTO REPAYMENT_STATUS VALUES(-1, 'pay duly');
+INSERT INTO REPAYMENT_STATUS VALUES(0, 'No delay in payment');
+INSERT INTO REPAYMENT_STATUS VALUES(1, 'payment delay for one month');
+INSERT INTO REPAYMENT_STATUS VALUES(2, 'payment delay for two months');
+INSERT INTO REPAYMENT_STATUS VALUES(3, 'payment delay for three months');
+INSERT INTO REPAYMENT_STATUS VALUES(4, 'payment delay for four months');
+INSERT INTO REPAYMENT_STATUS VALUES(5, 'payment delay for five months');
+INSERT INTO REPAYMENT_STATUS VALUES(6, 'payment delay for six months');
+INSERT INTO REPAYMENT_STATUS VALUES(7, 'payment delay for seven months');
+INSERT INTO REPAYMENT_STATUS VALUES(8, 'payment delay for eight months');
+INSERT INTO REPAYMENT_STATUS VALUES(9, 'payment delay for nine months and above');
